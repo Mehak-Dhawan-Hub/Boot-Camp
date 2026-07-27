@@ -3,26 +3,19 @@ a = 10
 b = 5
 
 print("Addition =", a + b)
-print("Subtraction =", a - b)
-print("Multiplication =", a * b)
-print("Division =", a / b)
 
-# Relational Operators
-print(a > b)
-print(a < b)
-print(a == b)
+# Relational Operator
+print("a > b =", a > b)
 
-# Logical Operators
-print(a > 0 and b > 0)
-print(a > 0 or b < 0)
-print(not(a > b))
+# Logical Operator
+print("a > 0 and b > 0 =", a > 0 and b > 0)
 
-# If-else ladder to check character type
-ch = input("Enter a character: ")
+# If-elif-else ladder
+marks = int(input("Enter your marks: "))
 
-if ch.isalpha():
-    print("Alphabet")
-elif ch.isdigit():
-    print("Digit")
+if marks >= 90:
+    print("Grade A")
+elif marks >= 50:
+    print("Pass")
 else:
-    print("Special Character")
+    print("Fail")
