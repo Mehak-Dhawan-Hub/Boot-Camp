@@ -1,8 +1,9 @@
 # Arithmetic Operators
-a = 10
-b = 5
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
 print("Addition =", a + b)
+print("Subtraction =", a - b)
 
 # Relational Operator
 print("a > b =", a > b)
@@ -10,11 +11,11 @@ print("a > b =", a > b)
 # Logical Operator
 print("a > 0 and b > 0 =", a > 0 and b > 0)
 
-# If-elif-else ladder
-marks = int(input("Enter your marks: "))
+# If-else ladder
+marks = int(input("Enter marks: "))
 
 if marks >= 90:
-    print("Grade A")
+    print("Excellent")
 elif marks >= 50:
     print("Pass")
 else:
